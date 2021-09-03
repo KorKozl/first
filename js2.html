@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<script>
+function silnia(i){
+    if (i==1){
+        return 1;
+    }
+    else{
+        return i *silnia(i-1);
+    }
+    alert(document.getElementById("user").value);
+}
+
+
+</script>
+
+<input name="user" size=4>
+<input type="button" value="Klik" onclick="silnia(this.user.valuse)" >
+
+</head>
+</html>
