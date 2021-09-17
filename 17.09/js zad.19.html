@@ -1,0 +1,43 @@
+<html>
+    <head>
+
+
+
+
+    <script language="JavaScript">
+
+function Pole(p_licz1, p_licz2) {
+    
+var licz1=parseFloat(p_licz1);
+var licz2=parseFloat(p_licz2);
+var p_wynik = licz1*licz2;
+document.write(p_wynik);
+}
+
+function Obwod(o_licz1, o_licz2){
+    licz1=parseFloat(o_licz1);
+    licz2=parseFloat(o_licz2);
+   var o_wynik = (licz1*2)+(licz2*2);
+    alert (o_wynik);
+}
+
+</script>
+</head>
+<body>
+
+<form onsubmit="Pole(this.p_licz1.value,this.p_licz2.value)">
+<input type="number"  name="p_licz1"> 
+<input type="number" name="p_licz2" > 
+<button type='button' )>Oblicz Pole</button>
+</form>
+<br><br>
+<form onsubmit="Obwod(this.o_licz1.value,this.o_licz2.value )">
+<input type="number" name="o_licz1" > 
+<input type="number" name="o_licz2" > 
+<button type='button'>Oblicz Obwod</button>
+</form>
+
+
+
+</body>    
+</html>

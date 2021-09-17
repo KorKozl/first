@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<script type="text/JavaScript">
+
+function trap(a,b,h) {
+
+var a_ = parseFloat(a);
+var b_ = parseFloat(b);
+var h_ = parseFloat(h);
+
+var ramie = Math.pow(h_ + ((a_ - b_)/2),2);
+var pole = ((a_+b_)/2)*h_;
+var obw = a_+b_+(2*ramie);
+
+alert ("Obwód: "+obw+"  Pole: "+pole );
+
+}
+</script>
+
+<body bgcolor="grey">
+<form onsubmit="trap(this.a.value,this.b.value,this.h.value); return false">
+Bok A: <input type="number" name="a"><br>
+Bok B: <input type="number" name="b"><br>
+H: <input type="number" name="h"><br>
+<input type="submit" value="Oblicz"/>
+
+
+</form>
+</body>
+</head>
+</html>
