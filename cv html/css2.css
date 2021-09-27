@@ -1,0 +1,30 @@
+#tyt{
+    text-align: center;
+    font-size: 48px;
+
+}
+
+#lewy{
+    position: absolute;
+    left: 3%;
+    right: 60%;
+    top: 15%;
+    bottom: 20%;
+
+    background: cyan;
+    border: Spx rgb(255, 0, 0);
+    box-sizing: border-box;
+}
+
+
+#prawy{
+    position: absolute;
+    left: 3%;
+    right: 60%;
+    top: 15%;
+    bottom: 20%;
+
+    background: cyan;
+    border: Spx rgb(255, 0, 0);
+    box-sizing: border-box;
+}

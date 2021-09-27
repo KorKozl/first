@@ -1,0 +1,24 @@
+#menu {
+    text-align: center;
+    background-color: rgb(213, 255, 241);
+}
+
+#skills {
+    text-align: center;
+    background-color: rgb(183, 255, 231);
+
+}
+
+#cheems{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+#content{
+
+    text-align: center;
+    background-color: rgb(121, 255, 210);
+    font-size: 48px;
+}
