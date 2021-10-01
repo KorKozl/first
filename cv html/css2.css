@@ -5,26 +5,37 @@
 }
 
 #lewy{
-    position: absolute;
-    left: 3%;
-    right: 60%;
-    top: 15%;
-    bottom: 20%;
-
-    background: cyan;
-    border: Spx rgb(255, 0, 0);
-    box-sizing: border-box;
+    float: left;
+            width: 800px;
+            height: 600px;
+            margin: 65px;
+            margin-top: 10px;;
+            background-size: cover;
+            background-position: fixed;
+            
 }
 
 
 #prawy{
-    position: absolute;
-    left: 3%;
-    right: 60%;
-    top: 15%;
-    bottom: 20%;
 
-    background: cyan;
-    border: Spx rgb(255, 0, 0);
-    box-sizing: border-box;
+    float: left;
+    width: 800px;
+    height: 600px;
+    margin: 65px;
+    margin-top: 10px;;
+    background-size: cover;
+    background-position: fixed;
+    
+}
+
+textarea{
+    background-image: url('chms.jpg');
+    color:rgb(255, 255, 255); 
+    resize: none;
+    overflow: hidden;
+    border: solid 5px white;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
