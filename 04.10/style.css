@@ -1,0 +1,54 @@
+#baner{
+
+position: fixed;
+background-color: blue;
+width: 100%;
+height: 25%;
+top: 0%
+
+
+}
+body{
+    margin:0;
+}
+
+#lewy{
+
+    position: fixed;
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    float: left;
+    left: 0%;
+    top: 25%;
+
+}
+
+#prawy{
+
+    position: fixed;
+    background-color: green;
+    height: 50%;
+    width: 50%;
+    float: right;
+    left: 50%;
+    top: 25%;
+
+}
+
+#stopka{
+    position: fixed;
+    background-color: #600201;
+    height: 25%;
+    width: 100%;
+    top: 75%;
+}
+
+#brg{
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+
+}
