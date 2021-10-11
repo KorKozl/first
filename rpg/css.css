@@ -1,0 +1,48 @@
+#magic{
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 75%;
+    background-color: rgba(136, 136, 255, 0.438);
+}
+
+#fizyczne{
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 75%;
+    background-color: rgba(255, 140, 140, 0.425);
+
+}
+
+#Support{
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 75%;
+    background-color: rgba(138, 255, 71, 0.425);
+}
+
+#Specjalne{
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 75%;
+    background-color: rgba(255, 230, 0, 0.541);
+}
+
+body{
+background-image: url(git.jpg);
+
+}
+
+#logo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
