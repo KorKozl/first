@@ -1,0 +1,34 @@
+#up{
+    background-color: greenyellow;
+    float: left;
+    width: 100%;
+    height: 25%;
+
+    
+}
+
+#left{
+    background-color: pink;
+    float: left;
+    width: 25%;
+    height: 50%;
+}
+
+#right{
+    background-color: purple;
+    float: right;
+    width: 25%;
+    height: 50%;
+}
+
+#dw{
+    background-color: blue;
+    float: left;
+    width: 100%;
+    height: 25%;
+}
+
+body,html{
+width: 100%;
+height: 100%;
+}
